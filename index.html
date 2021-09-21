@@ -5,39 +5,48 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!----Website Title---->
-    <title> </title>
+    <title>GlassQueens \\ An Artist's Portfolio of Original Art</title>
     <!----links to css---->
     <link rel="stylesheet" href="./css/shared.css">
     <link rel="stylesheet" href="./css/animations.css">
     <!----links to google fonts---->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap" rel="stylesheet">
     <link href="" rel="stylesheet"> 
-    <!-----link to font awesome---->
+    <!-----link to jquery---->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" referrerpolicy="no-referrer"></script>
 </head>
 
 <body>
     <!---NAVBar-->
-    <div class="wrap">
+    <nav class="navbar-fixed-top">
         <div class="menu-container">
             <ul class="menu">
                 <!----nav-links---->
-                <a href="#">
-                    <li></li>
+                <a href="#home">
+                    <li>Home</li>
                 </a>
-                <a href="#">
-                    <li></li>
+                <a href="#gallery">
+                    <li>Gallery</li>
                 </a>
-                <a href="#">
-                    <li></li>
+                <a href="#contact">
+                    <li>Contact</li>
                 </a>
             </ul>
         </div>
-    </div>
+    </nav>
     <!--END NAV-->
     <!--HOME-->
     <div id="home">
         <div class="container">
             <div class="text-center">
-                <span class="head-main"></span>
+                <span class="head-main">Glass Queens</span>
+                <h3 class="head-sub-main">Creative Glass Art & Designs</h3>
+                  
+                <div class="submit">
+                    <input type="submit" value="Find Out More">
+                </div>
             </div>
         </div>
     </div>
@@ -45,16 +54,14 @@
     <!--GALLERY-->
     <section id="gallery">
         <div class="container">
-            <h1></h1>
+            <h1>Gallery</h1>
             <div class="flex-container">
 
                 <!--PHOTO CONTAINER 1-->
                 <div class="photo-container">
                     <div class="photo">
-                        <img src="" alt="">
+                        <img src="./images/blue-pipe.jpg" alt="">
                         <div class="photo-overlay">
-                            <h3></h3>
-                            <p></p>
                         </div>
                     </div>
                 </div>
@@ -63,10 +70,8 @@
                 <!--PHOTO CONTAINER 2-->
                 <div class="photo-container">
                     <div class="photo">
-                        <img src="" alt="">
+                        <img src="./images/figure8.jpg" alt="">
                         <div class="photo-overlay">
-                            <h3></h3>
-                            <p></p>
                         </div>
                     </div>
                 </div>
@@ -75,29 +80,107 @@
                 <!--PHOTO CONTAINER 3-->
                 <div class="photo-container">
                     <div class="photo">
-                        <img src="" alt="">
+                        <img src="./images/flowers-rock.JPG" alt="">
                         <div class="photo-overlay">
-                            <h3></h3>
-                            <p></p>
                         </div>
                     </div>
                 </div>
                 <!--END PHOTO CONTAINER 3-->
+                 <!--PHOTO CONTAINER 4-->
+                 <div class="photo-container">
+                    <div class="photo">
+                        <img src="./images/flowers.JPG" alt="">
+                        <div class="photo-overlay">
+                        </div>
+                    </div>
+                </div>
+                <!--END PHOTO CONTAINER 4-->
+                 <!--PHOTO CONTAINER 5-->
+                 <div class="photo-container">
+                    <div class="photo">
+                        <img src="./images/greenguy.jpg" alt="">
+                        <div class="photo-overlay">
+                        </div>
+                    </div>
+                </div>
+                <!--END PHOTO CONTAINER 5-->
+                 <!--PHOTO CONTAINER 6-->
+                 <div class="photo-container">
+                    <div class="photo">
+                        <img src="./images/hair-pick.jpg" alt="">
+                        <div class="photo-overlay">
+                        </div>
+                    </div>
+                </div>
+                <!--END PHOTO CONTAINER 6-->
+                 <!--PHOTO CONTAINER 7-->
+                 <div class="photo-container">
+                    <div class="photo">
+                        <img src="./images/jar.jpg" alt="">
+                        <div class="photo-overlay">
+                        </div>
+                    </div>
+                </div>
+                <!--END PHOTO CONTAINER 7-->
+                 <!--PHOTO CONTAINER 8-->
+                 <div class="photo-container">
+                    <div class="photo">
+                        <img src="./images/pipeandplant.jpg" alt="">
+                        <div class="photo-overlay">
+                        </div>
+                    </div>
+                </div>
+                <!--END PHOTO CONTAINER 8-->
+                 <!--PHOTO CONTAINER 9-->
+                 <div class="photo-container">
+                    <div class="photo">
+                        <img src="./images/teal-swirl.jpg" alt="">
+                        <div class="photo-overlay">
+                        </div>
+                    </div>
+                </div>
+                <!--END PHOTO CONTAINER 9-->
+                 <!--PHOTO CONTAINER 10-->
+                 <div class="photo-container">
+                    <div class="photo">
+                        <img src="./images/plugz.JPG" alt="">
+                        <div class="photo-overlay">
+                        </div>
+                    </div>
+                </div>
+                <!--END PHOTO CONTAINER 10-->
+                 <!--PHOTO CONTAINER 11-->
+                 <div class="photo-container">
+                    <div class="photo">
+                        <img src="./images/prepride 001.CR2.jpg" alt="">
+                        <div class="photo-overlay">
+                        </div>
+                    </div>
+                </div>
+                <!--END PHOTO CONTAINER 11-->
+                 <!--PHOTO CONTAINER 12-->
+                 <div class="photo-container">
+                    <div class="photo">
+                        <img src="./images/pipe.jpg" alt="">
+                        <div class="photo-overlay">
+                        </div>
+                    </div>
+                </div>
+                <!--END PHOTO CONTAINER 12-->
              </section>
     <!--END GALLERY-->
     <!--RSVP-->
     <section id="contact">
         <div class="container">
             <div class="heading-padding">
-                <h1 class="heading-padding"></h1>
                 <div class="reservation">
-                    <h2><span></span>
+                    <h2><span>Have a design you want to see created in real life?</span>
                         <br/> 
                     </h2>
-                    <p class="rsvp-text">
-                        
-                    </p>
+                   
                     <div class="form-rsvp">
+                        <h1 class="heading-padding">Questions? Request a meeting?</h1>
+
                         <form action="" method="post">
                             <input class="rsvp" type="text" value="" placeholder="First Name">
                             <input class="rsvp" type="text" value="" placeholder="Last Name">
@@ -120,9 +203,32 @@
 
     <!--FOOTER-->
     <div id="footer">
-        &nbsp;| &nbsp; &copy; 
+      DrTy DSigns &nbsp;| &nbsp; &copy; 2021
     </div>
     <!--END FOOTER-->
 </body>
+<script>
+    /*---------------------------------------*/
+    /*	NAVIGATION AND NAVIGATION VISIBLE ON SCROLL
+    /*---------------------------------------*/
+   $( window ).on( "load", function() {
+       mainNav();
+       $(window).scroll(function() {
+           mainNav();
+       });
+       function mainNav() {
+           var top = (document.documentElement && document.documentElement.scrollTop) || document.body.scrollTop;
+           if (top > 0) $('.navbar-fixed-top').stop().animate({
+               "opacity": '1',
+               "top": '0'
+           });
+           else $('.navbar-fixed-top').stop().animate({
+               "top": '-10',
+               "opacity": '0'
+           });
+   
+       }
+        });
+   </script>
 
 </html>
